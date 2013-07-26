@@ -1,0 +1,7 @@
+[user]
+	name = Jared De Blander
+	email = jared@deblander.org
+[color]
+	ui = true
+[push]
+	default = simple
