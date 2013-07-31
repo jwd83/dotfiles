@@ -1,7 +1,11 @@
 [user]
 	name = Jared De Blander
 	email = jared@deblander.org
+[credential]
+	helper = cache
 [color]
 	ui = true
 [push]
 	default = simple
+[core]
+	whitespace = cr-at-eol
