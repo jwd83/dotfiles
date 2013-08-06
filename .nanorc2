@@ -5,4 +5,5 @@ set smooth
 set nowrap
 set morespace
 set smarthome
+set const
 
