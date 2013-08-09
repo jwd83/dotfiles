@@ -1,2 +1,2 @@
 # To Do
-VIM settings
+flask WSGI working configurations
