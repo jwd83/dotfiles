@@ -16,6 +16,9 @@ set shiftwidth=4            " using indent operations in visual mode use this mu
 set encoding=utf-8                      " The encoding displayed.
 set fileencoding=utf-8                  " The encoding written to file.
 
+" line endings
+set ff=unix
+
 " Whitespace characters
 
 set list
