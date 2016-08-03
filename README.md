@@ -1,4 +1,4 @@
-rc
+dotfiles
 ==
 
-A collection of my rc files. (i.e., .nanorc)
+A partial collection of my dotfiles. (.gitconfig, .nanorc, etc)
