@@ -7,7 +7,7 @@
 	"font_size": 12,
 
 	// General Settings
-	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",	//remove the $ from this for better PHP support
 	"trim_trailing_white_space_on_save": true,
 
 	// Ignored packages (note vintage was here by default)
