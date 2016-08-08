@@ -1,13 +1,18 @@
 {
+	// Theme & Appearance
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"theme": "predawn-DEV.sublime-theme",
-	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
 	"show_encoding": true,
 	"rulers": [80],
 	"font_size": 12,
+
+	// General Settings
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"trim_trailing_white_space_on_save": true,
+
+	// Ignored packages (note vintage was here by default)
 	"ignored_packages":
 	[
 		"Vintage"
-	],
-	"trim_trailing_white_space_on_save": true
+	]
 }
