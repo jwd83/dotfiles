@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"theme": "predawn-DEV.sublime-theme",
+	"show_encoding": true,
 	"rulers": [80],
 	"font_size": 12,
 	"ignored_packages":
