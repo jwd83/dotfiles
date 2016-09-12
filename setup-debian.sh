@@ -13,11 +13,14 @@ ufw allow 22
 ufw allow 60000:60100/udp
 ufw --force enable
 
+curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate
+sudo chmod +x /usr/local/bin/rmate
+
 echo ""
 echo "quick setup included..."
 echo "------------------------------------------"
 echo "git htop iftop ufw mosh weechat strace dstat mc"
-echo "swapsace nodejs make cmatrix"
+echo "swapsace nodejs make cmatrix rmate"
 echo ""
 echo "firewall rules block all except"
 echo "------------------------------------------"
