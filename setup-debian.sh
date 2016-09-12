@@ -16,6 +16,8 @@ ufw --force enable
 curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate
 sudo chmod +x /usr/local/bin/rmate
 
+npm install -g slap
+
 echo ""
 echo "quick setup included..."
 echo "------------------------------------------"
