@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# to setup a box type this at bash upon login...
+#
+# source <(curl -s https://raw.githubusercontent.com/jared0x90/dotfiles/master/setup-debian.sh)
+#
+
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt update -y && apt upgrade -y
 
