@@ -10,7 +10,7 @@ apt update -y && apt upgrade -y
 
 # install packages
 
-apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential proxychains -y
+apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential proxychains privoxy -y
 
 # setup firewall rules
 
@@ -39,7 +39,7 @@ echo ""
 echo "quick setup included..."
 echo "------------------------------------------"
 echo "git htop iftop ufw mosh weechat strace dstat mc"
-echo "swapsace nodejs make cmatrix rmate"
+echo "swapsace nodejs make cmatrix rmate privoxy proxychains"
 echo ""
 echo "firewall rules block all except"
 echo "------------------------------------------"
