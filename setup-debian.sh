@@ -8,7 +8,7 @@
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt update -y && apt upgrade -y
 
-apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential -y
+apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential proxychains tor -y
 ufw allow 22
 ufw allow 60000:60100/udp
 ufw --force enable
