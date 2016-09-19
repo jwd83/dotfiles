@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# to setup a box type this at bash upon login...
+# to setup a box type this at bash upon login as root...
 #
 # source <(curl -s https://raw.githubusercontent.com/jared0x90/dotfiles/master/setup-debian.sh)
 #
