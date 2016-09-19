@@ -10,7 +10,7 @@ apt update -y && apt upgrade -y
 
 # install packages
 
-apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential proxychains privoxy -y
+apt install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace nodejs make cmatrix build-essential proxychains privoxy screenfetch -y
 
 # setup firewall rules
 
@@ -34,6 +34,9 @@ curl -o ~/.iftoprc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.
 curl -o ~/.nanorc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.nanorc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/jared0x90/dotfiles/master/.tmux.conf
 curl -o ~/.vimrc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.vimrc
+
+# display system details
+screenfetch
 
 echo ""
 echo "quick setup included..."
