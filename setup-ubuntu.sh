@@ -5,10 +5,13 @@
 # source <(curl -s https://raw.githubusercontent.com/jared0x90/dotfiles/master/setup-ubuntu.sh)
 #
 
+# recent golang per http://stackoverflow.com/a/36171900
+add-apt-repository ppa:ubuntu-lxc/lxd-stable
+
 # install packages
 apt-get update
 apt-get upgrade -y
-apt-get install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace cmatrix -y
+apt-get install tmux git htop iftop ufw mosh weechat strace dstat mc swapspace cmatrix golang -y
 
 # setup firewall rules
 
