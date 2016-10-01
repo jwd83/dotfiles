@@ -1,17 +1,17 @@
 {
-	"show_encoding": true,
-	"translate_tabs_to_spaces": true,
-	"rulers": [80],
-	"font_size": 12,
+    "show_encoding": true,
+    "translate_tabs_to_spaces": true,
+    "rulers": [80],
+    "font_size": 12,
 
-	// General Settings
-	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",	//remove the $ from this for better PHP support
+    // General Settings
+    "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",	//remove the $ from this for better PHP support
 
-	"trim_trailing_white_space_on_save": true,
+    "trim_trailing_white_space_on_save": true,
 
-	// Ignored packages (note vintage was here by default)
-	"ignored_packages":
-	[
-		"Vintage"
-	]
+    // Ignored packages (note vintage was here by default)
+    "ignored_packages":
+    [
+        "Vintage"
+    ]
 }
