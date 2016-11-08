@@ -1,3 +1,6 @@
+" enter the current millenium
+set nocompatible
+
 " Line Numbers
 
 set number
@@ -26,7 +29,8 @@ set listchars=tab:»\ ,trail:·,extends:»,precedes:«
 
 " Syntax Highlighting
 
-syntax on
+syntax enable
+filetype plugin on
 
 " Status bar
 
@@ -39,3 +43,8 @@ set ignorecase                          " Do case insensitive matching
 
 " Auto reload if file is unedited
 set autoread
+
+" File finding
+set path+=**
+set wildmenu
+
