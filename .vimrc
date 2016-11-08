@@ -48,3 +48,7 @@ set autoread
 set path+=**
 set wildmenu
 
+# Status bar coloring
+hi StatusLine ctermbg=15 ctermfg=4
+au InsertEnter * hi StatusLine ctermbg=15 ctermfg=1
+au InsertLeave * hi StatusLine ctermbg=15 ctermfg=4
