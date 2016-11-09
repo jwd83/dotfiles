@@ -36,6 +36,7 @@ NORMAL MODE (default OR escape OR control + c)
 u = undo
 yiw = yank in word (copy current word)
 yw = yank rest of word (from the character you are on forwards)
+<F5> = clean up whitespace
 
 ********************************************************************************
 VISUAL MODE (v = start your selection, V=select entire lines)
