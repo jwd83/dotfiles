@@ -4,7 +4,8 @@ set nocompatible
 """"""""""""""""""""""""""""""""""""""
 " UI SETTINGS
 """"""""""""""""""""""""""""""""""""""
- "try to keep 3 lines on screen
+" colo default
+"try to keep 3 lines on screen
 set scrolloff=3
 " Highlight current line
 set cursorline
@@ -15,6 +16,8 @@ set relativenumber
 hi StatusLine ctermbg=15 ctermfg=4
 au InsertEnter * hi StatusLine ctermbg=15 ctermfg=1
 au InsertLeave * hi StatusLine ctermbg=15 ctermfg=4
+" Line number coloring
+hi LineNr ctermbg=8 ctermfg=4
 " Tweaks for browsing
 " let g:netrw_banner=0        " disable annoying banner
 let g:netrw_liststyle=3     " tree view
