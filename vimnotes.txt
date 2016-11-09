@@ -56,3 +56,9 @@ INSERT MODE (i=insert, a=append. I=start of line, A=end of line, ea=end of word)
 control + p = attempt autocomplete
 control + n = revert autocomplete
 
+********************************************************************************
+COMMAND MODE
+********************************************************************************
+:e. = show netrw file browser (:edit .)
+:find = find file (allows tab completion)
+
