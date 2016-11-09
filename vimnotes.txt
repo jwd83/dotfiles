@@ -1,0 +1,22 @@
+MOVEMENT
+
+h=left
+j=down
+k=up
+l=right
+
+$=end of line
+
+multiplier=type number before movement. e.g. 5j=down 5 times
+
+NORMAL MODE (default OR escape OR control + c)
+u = undo
+
+VISUAL MODE (v = start your selection)
+y=copy selection
+x=cut selection
+
+INSERT MODE (i=insert here, a=insert after)
+
+control + p = attempt autocomplete
+
