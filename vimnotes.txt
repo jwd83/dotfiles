@@ -14,13 +14,20 @@ $ = end of line
 w = next word (puncuation included)
 W = next word separated by space
 
+b = jump back by words (puncuation included)
+B = jump back by words (no puncuation)
+
+e = jump to end of word (puncuation included)
+E = jump to end of word (no puncuation)
+
+G = jump to line number (prefix with number - 5G goes to line 5)
 
 ********************************************************************************
 REPEAT MOTIONS/ACTIONS
 ********************************************************************************
 
-multiplier=type number before motion. e.g. 5j=down 5 times
-repeat last motion=.
+multiplier = type number before motion. e.g. 5j=down 5 times
+repeat last motion = .
 
 ********************************************************************************
 NORMAL MODE (default OR escape OR control + c)
