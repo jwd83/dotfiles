@@ -20,7 +20,7 @@ B = jump back by words (no puncuation)
 e = jump to end of word (puncuation included)
 E = jump to end of word (no puncuation)
 
-G = jump to line number (prefix with number - 5G goes to line 5)
+G = jump to line number (prefix with number - 5G goes to line 5, 0 = last line)
 
 ********************************************************************************
 REPEAT MOTIONS/ACTIONS
