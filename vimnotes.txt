@@ -1,22 +1,47 @@
+********************************************************************************
 MOVEMENT
+********************************************************************************
 
-h=left
-j=down
-k=up
-l=right
+h = left
+j = down
+k = up
+l = right
 
-$=end of line
+0 = beginning of line
+^ = beginning of line
+$ = end of line
 
-multiplier=type number before movement. e.g. 5j=down 5 times
+w = next word (puncuation included)
+W = next word separated by space
 
+
+********************************************************************************
+REPEAT MOTIONS/ACTIONS
+********************************************************************************
+
+multiplier=type number before motion. e.g. 5j=down 5 times
+repeat last motion=.
+
+********************************************************************************
 NORMAL MODE (default OR escape OR control + c)
+********************************************************************************
+
 u = undo
+yiw = yank in word (copy current word)
+yw = yank rest of word (from the character you are on forwards)
 
-VISUAL MODE (v = start your selection)
-y=copy selection
-x=cut selection
+********************************************************************************
+VISUAL MODE (v = start your selection, V=select entire lines)
+********************************************************************************
 
-INSERT MODE (i=insert here, a=insert after)
+y = yank selection (copy selection)
+x = cut selection
+
+
+********************************************************************************
+INSERT MODE (i=insert, a=append. I=start of line, A=end of line, ea=end of word)
+********************************************************************************
 
 control + p = attempt autocomplete
+control + n = revert autocomplete
 
