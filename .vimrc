@@ -1,9 +1,11 @@
-" enter the current millenium
+" enter the current millenium, don't try to be vi compatible
 set nocompatible
 
 """"""""""""""""""""""""""""""""""""""
 " UI SETTINGS
 """"""""""""""""""""""""""""""""""""""
+ "try to keep 3 lines on screen
+set scrolloff=3
 " Highlight current line
 set cursorline
 " Line Numbers
@@ -48,4 +50,9 @@ set autoread
 set path+=**
 set wildmenu
 
+"""""""""""""""""""""""""""""""""""""
+" CUSTOM FUNCTIONS / MAPPINGS
+"""""""""""""""""""""""""""""""""""""
+" F5 = clear whitespace
+:nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
