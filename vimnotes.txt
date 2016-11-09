@@ -44,6 +44,8 @@ VISUAL MODE (v = start your selection, V=select entire lines)
 y = yank selection (copy selection)
 x = cut selection
 
+> = indent selection
+< = unindent selection
 
 ********************************************************************************
 INSERT MODE (i=insert, a=append. I=start of line, A=end of line, ea=end of word)
