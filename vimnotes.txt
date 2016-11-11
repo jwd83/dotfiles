@@ -19,6 +19,12 @@ B = jump back by words (no puncuation)
 e = jump to end of word (puncuation included)
 E = jump to end of word (no puncuation)
 
+control u = up half a page (u for up!)
+control d = down half a page (d for down!)
+
+control b = up a page (b for back a page!)
+control f = down a page (f for forward!)
+
 G = jump to line number (prefix with number - 5G goes to line 5, 0 = last line)
 
 ********************************************************************************
