@@ -28,6 +28,17 @@ multiplier = type number before motion. e.g. 5j=down 5 times
 repeat last motion = .
 
 ********************************************************************************
+SEARCH
+********************************************************************************
+/ = search forward in file for pattern
+? = search backward in file for pattern
+n = next occurence
+N = prior occurrence
+
+f = find next character in current line ONLY. fr = find next characater "r".
+; = next occurence in current line ONLY.
+, = previous occurence
+********************************************************************************
 NORMAL MODE (default OR escape OR control + c)
 ********************************************************************************
 u = undo
