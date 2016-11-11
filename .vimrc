@@ -59,3 +59,11 @@ set wildmenu
 " F5 = clear whitespace
 :nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
+" intelligent tab keymap
+nnoremap tn :tabnew<Space>
+
+nnoremap tk :tabnext<CR>
+nnoremap tj :tabprev<CR>
+
+nnoremap th :tabfirst<CR>
+nnoremap tl :tablast<CR>
