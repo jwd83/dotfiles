@@ -5,7 +5,7 @@
 # source <(curl -s https://raw.githubusercontent.com/jared0x90/dotfiles/master/setup-debian.sh)
 #
 
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+# curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt update -y && apt upgrade -y
 
 # install packages
@@ -25,7 +25,7 @@ sudo chmod +x /usr/local/bin/rmate
 
 # install the slap editor
 
-npm install -g slap
+# npm install -g slap
 
 # install config files
 
