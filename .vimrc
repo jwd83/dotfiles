@@ -52,6 +52,8 @@ set autoread
 " File finding
 set path+=**
 set wildmenu
+set wildmode=longest:full,full
+
 
 """""""""""""""""""""""""""""""""""""
 " CUSTOM FUNCTIONS / MAPPINGS
