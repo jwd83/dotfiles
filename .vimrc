@@ -32,11 +32,11 @@ filetype plugin on
 " GENERAL SETTINGS
 """""""""""""""""""""""""""""""""""""
 " Tabs & spaces
-set tabstop=2               " number of visual spaces per tab
-set softtabstop=2           " number of spaces in tab when editing
+set tabstop=4               " number of visual spaces per tab
+set softtabstop=4           " number of spaces in tab when editing
 set autoindent              " copy indenting from prior line
 set expandtab               " expand tabs to spaces
-set shiftwidth=2            " using indent operations in visual mode use this much whitepsace
+set shiftwidth=4            " using indent operations in visual mode use this much whitepsace
 " utf-8 setup
 set encoding=utf-8                      " The encoding displayed.
 set fileencoding=utf-8                  " The encoding written to file.
@@ -67,9 +67,3 @@ nnoremap tj :tabprev<CR>
 
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
-
-"""""""""""""""""""""""""""""""""""""
-" PLUGINS
-"""""""""""""""""""""""""""""""""""""
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
