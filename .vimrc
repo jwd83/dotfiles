@@ -1,4 +1,4 @@
-github" enter the current millenium, don't try to be vi compatible
+" enter the current millenium, don't try to be vi compatible
 set nocompatible
 
 """"""""""""""""""""""""""""""""""""""
