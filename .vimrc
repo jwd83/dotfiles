@@ -48,7 +48,7 @@ set fileencoding=utf-8                  " The encoding written to file.
 set ff=unix
 " Whitespace characters
 set list
-set listchars=tab:Â»\ ,trail:Â·,extends:Â»,precedes:Â«
+set listchars=tab:»\ ,trail:·,extends:»,precedes:«
 " Search options
 set ignorecase                          " Do case insensitive matching
 " Auto reload if file is unedited
