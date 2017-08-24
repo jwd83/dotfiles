@@ -5,7 +5,5 @@
 	helper = cache
 [color]
 	ui = true
-[push]
-	default = simple
 [core]
 	whitespace = cr-at-eol
