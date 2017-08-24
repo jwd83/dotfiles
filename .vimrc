@@ -1,4 +1,4 @@
-" enter the current millenium, don't try to be vi compatible
+github" enter the current millenium, don't try to be vi compatible
 set nocompatible
 
 """"""""""""""""""""""""""""""""""""""
@@ -20,13 +20,16 @@ au InsertLeave * hi StatusLine ctermbg=15 ctermfg=4
 hi LineNr ctermbg=8 ctermfg=4
 " Tweaks for browsing
 " let g:netrw_banner=0        " disable annoying banner
-let g:netrw_liststyle=3     " tree view
+let g:netrw_liststyle=3       " tree view
 " Status bar
 set laststatus=2
 set ruler
 " Syntax Highlighting
 syntax enable
 filetype plugin on
+set hlsearch                " turn off hlight until next search with :noh
+set showmatch               " show matching braces
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 """""""""""""""""""""""""""""""""""""
 " GENERAL SETTINGS
@@ -37,6 +40,7 @@ set softtabstop=4           " number of spaces in tab when editing
 set autoindent              " copy indenting from prior line
 set expandtab               " expand tabs to spaces
 set shiftwidth=4            " using indent operations in visual mode use this much whitepsace
+set smarttab                " be smart when using tabs
 " utf-8 setup
 set encoding=utf-8                      " The encoding displayed.
 set fileencoding=utf-8                  " The encoding written to file.
@@ -44,7 +48,7 @@ set fileencoding=utf-8                  " The encoding written to file.
 set ff=unix
 " Whitespace characters
 set list
-set listchars=tab:»\ ,trail:·,extends:»,precedes:«
+set listchars=tab:Â»\ ,trail:Â·,extends:Â»,precedes:Â«
 " Search options
 set ignorecase                          " Do case insensitive matching
 " Auto reload if file is unedited
@@ -69,3 +73,13 @@ nnoremap tj :tabprev<CR>
 
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Helper functions
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" " Returns true if paste mode is enabled
+function! HasPaste()
+    if &paste
+        return 'PASTE MODE  '
+    endif
+    return ''
+endfunction
