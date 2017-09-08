@@ -1,3 +1,10 @@
+" autoreload .vimrc if changes are made to it
+" autocmd BufWritePost .vimrc source %
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END
+
 " enter the current millenium, don't try to be vi compatible
 set nocompatible
 
@@ -5,7 +12,7 @@ set nocompatible
 " UI SETTINGS
 """"""""""""""""""""""""""""""""""""""
 " colo default
-"try to keep 3 lines on screen
+" try to keep 3 lines on screen
 set scrolloff=3
 " Highlight current line
 " set cursorline
@@ -30,17 +37,21 @@ filetype plugin on
 set hlsearch                " turn off hlight until next search with :noh
 set showmatch               " show matching braces
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+" allow mouse use
+set mouse=a
 
 """""""""""""""""""""""""""""""""""""
 " GENERAL SETTINGS
 """""""""""""""""""""""""""""""""""""
+" proper backspace
+set bs=2
 " Tabs & spaces
-set tabstop=4               " number of visual spaces per tab
-set softtabstop=4           " number of spaces in tab when editing
 set autoindent              " copy indenting from prior line
 set expandtab               " expand tabs to spaces
 set shiftwidth=4            " using indent operations in visual mode use this much whitepsace
 set smarttab                " be smart when using tabs
+set softtabstop=4           " number of spaces in tab when editing
+set tabstop=4               " number of visual spaces per tab
 " utf-8 setup
 set encoding=utf-8                      " The encoding displayed.
 set fileencoding=utf-8                  " The encoding written to file.
@@ -57,7 +68,9 @@ set autoread
 set path+=**
 set wildmenu
 set wildmode=longest:full,full
-
+" undo settings
+set history=700
+set undolevels=700
 
 """""""""""""""""""""""""""""""""""""
 " CUSTOM FUNCTIONS / MAPPINGS
@@ -73,6 +86,27 @@ nnoremap tj :tabprev<CR>
 
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
+
+" custom leader key (comma)
+let mapleader = ","
+
+" sort selection comma e
+vnoremap <Leader>s :sort<CR>
+
+" easier moving between tabs
+map <Leader>n <esc>:tabprevious<CR>
+map <Leader>m <esc>:tabnext<CR>
+
+" better indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" Quicksave command (control z- normally this would background the process and
+" you woule need to receover it with fg)
+noremap <C-Z> :update<CR>
+vnoremap <C-Z> <C-C>:update<CR>
+inoremap <C-Z> <C-O>:update<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
