@@ -78,6 +78,9 @@ set undolevels=700
 " F5 = clear whitespace
 :nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
+" F3 = toggle paste mode (disable autoindent fuckery)
+set pastetoggle=<F3>
+
 " intelligent tab keymap
 nnoremap tn :tabnew<Space>
 
