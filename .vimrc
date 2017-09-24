@@ -38,7 +38,7 @@ set hlsearch                " turn off hlight until next search with :noh
 set showmatch               " show matching braces
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 " allow mouse use
-set mouse=a
+" set mouse=a
 
 """""""""""""""""""""""""""""""""""""
 " GENERAL SETTINGS
