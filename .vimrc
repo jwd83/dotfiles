@@ -71,6 +71,15 @@ set wildmode=longest:full,full
 " undo settings
 set history=700
 set undolevels=700
+" use a somewhat less insecure encryption technique
+set cm=blowfish2
+" Disable temporary files
+set nobackup       " no backup files
+set nowritebackup  " only in case you don't want a backup file while editing
+set noswapfile     " no swap files
+
+
+
 
 """""""""""""""""""""""""""""""""""""
 " CUSTOM FUNCTIONS / MAPPINGS
