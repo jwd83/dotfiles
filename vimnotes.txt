@@ -65,8 +65,8 @@ x = cut selection
 ********************************************************************************
 INSERT MODE (i=insert, a=append. I=start of line, A=end of line, ea=end of word)
 ********************************************************************************
-control + p = attempt autocomplete
-control + n = revert autocomplete
+control + n = next autocomplete
+control + p = previous autocomplete
 
 ********************************************************************************
 COMMAND MODE
