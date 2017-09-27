@@ -90,6 +90,9 @@ set noswapfile     " no swap files
 " F3 = toggle paste mode (disable autoindent fuckery)
 set pastetoggle=<F3>
 
+" double tap espace to clear highlighting
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
+
 " intelligent tab keymap
 nnoremap tn :tabnew<Space>
 

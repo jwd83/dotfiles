@@ -44,6 +44,8 @@ N = prior occurrence
 f = find next character in current line ONLY. fr = find next characater "r".
 ; = next occurence in current line ONLY.
 , = previous occurence
+double tap escape = clear highlight
+
 ********************************************************************************
 NORMAL MODE (default OR escape OR control + c)
 ********************************************************************************
