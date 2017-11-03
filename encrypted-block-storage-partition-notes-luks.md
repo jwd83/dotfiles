@@ -31,7 +31,7 @@ mkfs.ext4 /dev/mapper/lukfs
 * Now simply mount the partition. You will need to have a path already created to mount it to. Simply use mkdir to create a path if you don't have one defined already. I will create location /mount/lukfs and mount the lukfs partition there. commands:
 
 `
-mkdir /mount/crypto
+mkdir /mnt/lukfs
 `
 
 `
