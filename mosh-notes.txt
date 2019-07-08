@@ -1,0 +1,2 @@
+apt install mosh
+ufw allow 60000:61000/udp
