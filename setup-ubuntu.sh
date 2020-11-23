@@ -2,7 +2,7 @@
 
 # to setup a box type this at bash upon login as root...
 #
-# source <(curl -s https://raw.githubusercontent.com/jared0x90/dotfiles/master/setup-ubuntu.sh)
+# source <(curl -s https://raw.githubusercontent.com/jwd83/dotfiles/master/setup-ubuntu.sh)
 #
 
 # recent golang per http://stackoverflow.com/a/36171900
@@ -26,11 +26,11 @@ sudo chmod +x /usr/local/bin/rmate
 
 # install config files
 
-curl -o ~/.gitconfig https://raw.githubusercontent.com/jared0x90/dotfiles/master/.gitconfig
-curl -o ~/.iftoprc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.iftoprc
-curl -o ~/.nanorc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.nanorc
-curl -o ~/.tmux.conf https://raw.githubusercontent.com/jared0x90/dotfiles/master/.tmux.conf
-curl -o ~/.vimrc https://raw.githubusercontent.com/jared0x90/dotfiles/master/.vimrc
+curl -o ~/.gitconfig https://raw.githubusercontent.com/jwd83/dotfiles/master/.gitconfig
+curl -o ~/.iftoprc https://raw.githubusercontent.com/jwd83/dotfiles/master/.iftoprc
+curl -o ~/.nanorc https://raw.githubusercontent.com/jwd83/dotfiles/master/.nanorc
+curl -o ~/.tmux.conf https://raw.githubusercontent.com/jwd83/dotfiles/master/.tmux.conf
+curl -o ~/.vimrc https://raw.githubusercontent.com/jwd83/dotfiles/master/.vimrc
 
 echo ""
 echo "quick setup included..."
