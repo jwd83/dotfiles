@@ -31,6 +31,7 @@ $packages.Add("vlc")
 $packages.Add("vscode")
 $packages.Add("wget")
 $packages.Add("winscp.install")
+$packages.Add("zerotier-one")
 
 $packageListing = $packages -join " "
 
