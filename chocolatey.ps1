@@ -2,30 +2,30 @@
 # Set-ExecutionPolicy Bypass -Scope Process
 
 choco install -y 7zip
-choco isntall -y autohotkey.portable
-choco isntall -y autoruns
-choco isntall -y bitwarden bitwarden-cli
-choco isntall -y bleachbit
-choco isntall -y curl
-choco isntall -y cutepdf
-choco isntall -y firefox
-choco isntall -y foxitreader
-choco isntall -y git
-choco isntall -y hwmonitor
-choco isntall -y inkscape
-choco isntall -y k-litecodecpackfull
-choco isntall -y libreoffice-fresh
-choco isntall -y nodejs
-choco isntall -y notepadplusplus
-choco isntall -y openssh
-choco isntall -y paint.net
-choco isntall -y putty
-choco isntall -y python3
-choco isntall -y sumatrapdf.install
-choco isntall -y virtualbox virtualbox-guest-additions-guest.install
-choco isntall -y vlc
-choco isntall -y vscode
-choco isntall -y wget
-choco isntall -y winscp.install
+choco install -y autohotkey.portable
+choco install -y autoruns
+choco install -y bitwarden bitwarden-cli
+choco install -y bleachbit
+choco install -y curl
+choco install -y cutepdf
+choco install -y firefox
+choco install -y foxitreader
+choco install -y git
+choco install -y hwmonitor
+choco install -y inkscape
+choco install -y k-litecodecpackfull
+choco install -y libreoffice-fresh
+choco install -y nodejs
+choco install -y notepadplusplus
+choco install -y openssh
+choco install -y paint.net
+choco install -y putty
+choco install -y python3
+choco install -y sumatrapdf.install
+choco install -y virtualbox virtualbox-guest-additions-guest.install
+choco install -y vlc
+choco install -y vscode
+choco install -y wget
+choco install -y winscp.install
 
 # Packages to look into winlogbeat
