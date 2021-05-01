@@ -1,31 +1,45 @@
 # you must first install chocolately AND then run this as admin on a powershell after executing....
 # Set-ExecutionPolicy Bypass -Scope Process
 
-choco install -y 7zip
-choco install -y autohotkey.portable
-choco install -y autoruns
-choco install -y bitwarden bitwarden-cli
-choco install -y bleachbit
-choco install -y curl
-choco install -y cutepdf
-choco install -y firefox
-choco install -y foxitreader
-choco install -y git
-choco install -y hwmonitor
-choco install -y inkscape
-choco install -y k-litecodecpackfull
-choco install -y libreoffice-fresh
-choco install -y nodejs
-choco install -y notepadplusplus
-choco install -y openssh
-choco install -y paint.net
-choco install -y putty
-choco install -y python3
-choco install -y sumatrapdf.install
-choco install -y virtualbox virtualbox-guest-additions-guest.install
-choco install -y vlc
-choco install -y vscode
-choco install -y wget
-choco install -y winscp.install
+$packages = New-Object Collections.Generic.List[String]
+
+$packages.Add("7zip")
+$packages.Add("autohotkey.portable")
+$packages.Add("autoruns")
+$packages.Add("bitwarden")
+$packages.Add("bitwarden-cli")
+$packages.Add("bleachbit")
+$packages.Add("curl")
+$packages.Add("cutepdf")
+$packages.Add("firefox")
+$packages.Add("foxitreader")
+$packages.Add("git")
+$packages.Add("hwmonitor")
+$packages.Add("inkscape")
+$packages.Add("k-litecodecpackfull")
+$packages.Add("libreoffice-fresh")
+$packages.Add("nodejs")
+$packages.Add("notepadplusplus")
+$packages.Add("openssh")
+$packages.Add("paint.net")
+$packages.Add("putty")
+$packages.Add("python3")
+$packages.Add("sumatrapdf.install")
+$packages.Add("virtualbox")
+$packages.Add("virtualbox-guest-additions-guest.install")
+$packages.Add("vlc")
+$packages.Add("vscode")
+$packages.Add("wget")
+$packages.Add("winscp.install")
+
+$packageListing = $packages -join " "
+
+Write-Output "Preparing to install..."
+Write-Output $packageListing
+
+ForEach ($pkg in $packages){
+	Write-Output "Now installing $pkg"
+	choco install -y $pkg
+}
 
 # Packages to look into winlogbeat
