@@ -1,1 +1,1 @@
-choco install -y curl wget firefox notepadplusplus vlc python3 git cutepdf
+choco install -y curl wget firefox notepadplusplus vlc python3 git cutepdf openssh 7zip nodejs foxitreader
