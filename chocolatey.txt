@@ -1,1 +1,1 @@
-choco install -y 7zip autohotkey.portable autoruns curl cutepdf firefox foxitreader git libreoffice-fresh nodejs notepadplusplus openssh paint.net putty python3 sumatrapdf.install vlc vscode wget 
+choco install -y 7zip autohotkey.portable autoruns curl cutepdf firefox foxitreader git inkscape libreoffice-fresh nodejs notepadplusplus openssh paint.net putty python3 sumatrapdf.install vlc vscode wget 
