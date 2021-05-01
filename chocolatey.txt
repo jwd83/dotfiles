@@ -1,1 +1,1 @@
-choco install -y 7zip autohotkey.portable autoruns curl cutepdf firefox foxitreader git nodejs notepadplusplus openssh putty python3 vlc wget 
+choco install -y 7zip autohotkey.portable autoruns curl cutepdf firefox foxitreader git nodejs notepadplusplus openssh putty python3 vlc vscode wget 
