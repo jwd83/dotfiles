@@ -1,9 +1,0 @@
-set tabsize 2
-set tabstospaces
-# set autoindent
-set smooth
-set nowrap
-set morespace
-set smarthome
-set const
-
