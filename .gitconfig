@@ -1,9 +1,5 @@
 [user]
 	name = Jared De Blander
-	email = jared0x90@gmail.com
-[credential]
-	helper = cache
+	email = jared@ayrscott.com
 [color]
 	ui = true
-[core]
-	whitespace = cr-at-eol
