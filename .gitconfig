@@ -3,3 +3,5 @@
 	email = jared@ayrscott.com
 [color]
 	ui = true
+[init]
+	defaultBranch = main
