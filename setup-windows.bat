@@ -1,6 +1,7 @@
 winget install Audacity.Audacity
 winget install TimKosse.FileZilla.Client
 winget install Git.Git
+winget install HandBrake.HandBrake
 winget install Microsoft.PowerToys
 winget install Microsoft.VisualStudioCode
 winget install Notepad++.Notepad++
