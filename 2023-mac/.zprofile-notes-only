@@ -1,0 +1,2 @@
+# Setting up PATH for NVM (node version manager)
+source $(brew --prefix nvm)/nvm.sh
