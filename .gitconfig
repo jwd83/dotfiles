@@ -1,7 +1,13 @@
 [user]
 	name = Jared De Blander
-	email = jared@ayrscott.com
+	email = jared0x90@gmail.com
 [color]
 	ui = true
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/jared/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/jared/.local/bin/gh auth git-credential
